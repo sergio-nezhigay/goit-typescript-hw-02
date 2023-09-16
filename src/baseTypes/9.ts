@@ -6,7 +6,7 @@ type Pages = {
   title: string;
   likes: number;
   accounts: string[];
-  status: string;
+  status: "open" | 'close'ж
   details?: {
     createAt: Date;
     updateAt: Date;
